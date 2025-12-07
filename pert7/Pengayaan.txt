@@ -2,7 +2,16 @@ Pertanyaan Refleksi
 Setelah menyelesaikan kode, jawab pertanyaan berikut:
 
 1. Apa perbedaan antara interface dengan class biasa?
+    Interface hanya berisi deklarasi method tanpa implementasi, sedangkan class biasa berisi implementasi method dan atribut-atribut nyata
+
 2. Mengapa interface tidak memiliki implementasi method di dalamnya?
+    Karena tujuan interface adalah mendefinisikan kontrak atau kerangka kerja
+
 3. Apa tujuan penggunaan keyword "implements" pada sebuah class?
+    Untuk menyatakan bahwa class tersebut setuju dan wajib mengimplementasikan seluruh method yang didefinisikan dalam interface tersebut
+
 4. Apakah sebuah class dapat mengimplementasikan lebih dari satu interface? Jelaskan dan berikan contoh sederhana.
+    Ya, bisa. Dipisahkan dengan koma
+
 5. Jika sebuah class mengimplementasikan interface, apa yang terjadi jika class tersebut tidak mengimplementasikan semua method dari interface tersebut?
+    Class tersebut akan mengalami error kompilasi, kecuali jika class tersebut dideklarasikan sebagai abstract class
