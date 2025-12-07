@@ -8,3 +8,19 @@ Setelah menyelesaikan kode, jawab pertanyaan berikut:
 5. Mengapa kita perlu menggunakan Inheritance? Apa keuntungan utamanya dibandingkan membuat dua class yang terpisah sama sekali (misal class Karyawan dan class Manajer dibuat terpisah tanpa hubungan)?
 
 Jawaban:
+
+1. extends
+   Digunakan untuk menyatakan bahwa sebuah class mewarisi sifat dan metode dari class lain
+
+2. Overloading vs Overriding
+   Overloading adalah penulisan kembali sebuah method di dalam suatu kelas nama method sama, tetapi parameter berbeda
+   Overriding adalah penulisan kembali sebuah method di kelas turunannya
+
+3. Keyword super di constructor
+   Digunakan untuk memanggil constructor dari superclass
+
+4. Access Modifier private
+   Jika private, class Manajer tidak bisa mengakses variabel nama dan gajiPokok secara langsung. Jika mau diubah, pake getter setter
+
+5. Keuntungan Inheritance
+   Reusability, yaitu kode nama, gaji, dan tampilInfo tidak perlu ditulis ulang di Manajer
