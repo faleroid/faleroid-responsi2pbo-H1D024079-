@@ -1,11 +1,11 @@
-class Pengguna {
+public class Pengguna {
     // Tuliskan state (variabel) yang diperlukan di sini
     // Jangan lupa tambahkan konstanta faktorAktivitas
     int umur;
     double berat;
     double tinggi;
     final double faktorAktivitas = 1.2;
-    
+
     double hitungBMI() {
         // Lengkapi method ini
         double tinggiMeter = tinggi / 100;
@@ -36,7 +36,7 @@ class Pengguna {
         System.out.println("Umur: " + umur + " tahun");
         System.out.println("Berat: " + berat + " kg");
         System.out.println("Tinggi: " + tinggi + " cm");
-        System.out.printf("BMI: ", hitungBMI());
+        System.out.printf("BMI: %.2f%n", hitungBMI());
         tampilKategori();
         System.out.println("Kebutuhan Kalori: " + hitungKalori() + " kal/hari");
         System.out.println("====================================");
