@@ -38,7 +38,7 @@ class Pengguna {
         System.out.println("Tinggi: " + tinggi + " cm");
         System.out.printf("BMI: ", hitungBMI());
         tampilKategori();
-        System.out.println("Kebutuhan Kalori: " + (int)hitungKalori() + " kal/hari");
+        System.out.println("Kebutuhan Kalori: " + hitungKalori() + " kal/hari");
         System.out.println("====================================");
     }
 }

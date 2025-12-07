@@ -8,6 +8,6 @@ class UjiPengguna {
 
         // Panggil method tampilInfo
         p.tampilInfo();
-        p.faktorAktivitas = 1.5; // Error
+        // p.faktorAktivitas = 1.5; // Error
     }
 }
