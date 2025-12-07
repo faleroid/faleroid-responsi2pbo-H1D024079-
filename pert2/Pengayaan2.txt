@@ -9,7 +9,7 @@ Setelah menyelesaikan kode, jawab pertanyaan berikut:
 
 Jawaban
 
-1. Constructor Overloading:
+1. Constructor Overloading
    Mendefinisikan lebih dari satu constructor dalam satu class dengan nama yang sama tetapi memiliki parameter yang berbeda
 2. Membedakan Constructor
    Java membedakannya berdasarkan jumlah, tipe, dan urutan parameter yang dikirimkan saat pembuatan objek
