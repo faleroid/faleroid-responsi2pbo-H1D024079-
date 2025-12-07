@@ -56,7 +56,7 @@ class analisisMesin {
         Arrays.sort(inventaris, new Comparator<defaultMesin>() {
             @Override
             public int compare(defaultMesin m1, defaultMesin m2) {
-                return Double.compare(m2.nilaiPerforma(), m1.nilaiPerforma()); // Descending
+                return Double.compare(m2.nilaiPerforma(), m1.nilaiPerforma());
             }
         });
 
