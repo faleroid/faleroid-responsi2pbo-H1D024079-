@@ -52,7 +52,6 @@ class analisisMesin {
 
         System.out.println("\n=== TOP 3 MESIN TERBAIK ===");
 
-        // Logika sorting 3 performa tertinggi
         Arrays.sort(inventaris, new Comparator<defaultMesin>() {
             @Override
             public int compare(defaultMesin m1, defaultMesin m2) {
