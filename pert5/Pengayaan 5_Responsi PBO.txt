@@ -2,21 +2,18 @@
 Jawablah pertanyaan berikut:
 
 1. Apa yang dimaksud dengan polimorfisme dalam OOP? Jelaskan bagaimana metode override bekerja.
-   Jawab: Polimorfisme adalah kemampuan objek untuk berubah bentuk atau perilaku tergantung pada konteksnya (tipe datanya). Dalam kasus ini, variabel bertipe `defaultMesin` bisa berisi `mesinMotor`, `mesinTraktor`, dll.
-   Override bekerja saat method dipanggil pada objek tersebut; Java akan menjalankan versi method milik subclass (child) yang sesungguhnya (dynamic binding), bukan versi parent.
+   Polimorfisme adalah kemampuan objek untuk berubah bentuk atau perilaku tergantung pada konteksnya
 
 2. Mengapa array bertipe DefaultMesin dapat menyimpan objek MesinMotor dan MesinTraktor?
-   Jawab: Karena `mesinMotor` dan `mesinTraktor` adalah subclass (turunan) dari `defaultMesin`. Dalam Java, variabel tipe superclass bisa menyimpan referensi ke objek subclass (Upcasting).
+   Karena mesinMotor dan mesinTraktor adalah turunan dari defaultMesin. Variabel tipe superclass bisa menyimpan referensi ke objek subclass
 
 3. Apa perbedaan override dan overload?
-   Jawab:
-   - Override: Mengganti method parent di child class (nama sama, parameter SAMA).
-   - Overload: Membuat variasi method di class yang sama (nama sama, parameter BEDA).
+   Override mengganti method parent di child class (nama sama, parameter SAMA).
+   Overload membuat variasi method di class yang sama (nama sama, parameter BEDA).
 
 4. Apa keuntungan menggunakan polimorfisme dalam sistem inventaris seperti contoh di atas?
-   Jawab:
-   - Kode lebih fleksibel dan mudah dikelola (Scalable).
-   - Kita bisa memproses semua mesin dalam satu loop (`for (defaultMesin m : inventaris)`), tanpa perlu membuat loop terpisah untuk setiap jenis mesin.
+   Kode lebih fleksibel dan mudah dikelola
+   Kita bisa memproses semua mesin dalam satu loop, tanpa perlu membuat loop terpisah untuk setiap jenis mesin.
 
 5. Bagaimana cara kerja dynamic dispatch pada Java saat memanggil method override?
-   Jawab: Saat runtime (program jalan), JVM mengecek tipe asli dari objek tersebut. Jika objek aslinya adalah `mesinMotor`, maka method `nilaiPerforma()` milik `mesinMotor` yang dijalankan, meskipun variabel penampungnya bertipe `defaultMesin`.
+   Saat runtime, JVM mengecek tipe asli dari objek tersebut. Jika objek aslinya adalah mesinMotor, maka method nilaiPerforma() milik mesinMotor yang dijalankan, meskipun variabel penampungnya bertipe defaultMesin
