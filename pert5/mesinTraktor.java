@@ -1,4 +1,4 @@
-class mesinTraktor extends defaultMesin {
+public class mesinTraktor extends defaultMesin {
     // Variabel khusus mesin traktor (kapasitasTarik)
     double kapasitasTarik;
 

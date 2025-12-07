@@ -1,4 +1,4 @@
-class Member extends Customer {
+public class Member extends Customer {
     // TODO: Tambahkan atribut tambahan
     int poin;
     String level;

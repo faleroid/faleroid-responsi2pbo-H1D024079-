@@ -1,4 +1,4 @@
-class defaultMesin {
+public class defaultMesin {
     // Variabel umum mesin (namaMesin, tenagaHP)
     String namaMesin;
     int tenagaHP;

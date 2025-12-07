@@ -1,4 +1,4 @@
-class mesinMotor extends defaultMesin {
+public class mesinMotor extends defaultMesin {
     // Variabel khusus mesin motor (tipeMotor)
     String tipeMotor;
 

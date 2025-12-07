@@ -1,7 +1,5 @@
-class Karyawan {
+public class Karyawan {
     // Deklarasikan variabel/state dasar (nama, gajiPokok)
-    // Gunakan access modifier yang tepat agar bisa diakses oleh subclass (misal:
-    // protected)
     protected String nama;
     protected double gajiPokok;
 

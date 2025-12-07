@@ -1,4 +1,4 @@
-class UjiKaryawan {
+public class UjiKaryawan {
     public static void main(String[] args) {
         // Tampilkan Header
         System.out.println("=== DATA KARYAWAN TECHMAJU ===");

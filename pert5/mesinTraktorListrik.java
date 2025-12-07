@@ -1,4 +1,4 @@
-class mesinTraktorListrik extends mesinTraktor {
+public class mesinTraktorListrik extends mesinTraktor {
     // Variabel khusus mesin traktor listrik (kapasitasBaterai)
     double kapasitasBaterai;
 

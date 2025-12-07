@@ -1,4 +1,4 @@
-class Customer {
+public class Customer {
     // TODO: Buatkan atribut
     protected String nama;
     protected String id;
